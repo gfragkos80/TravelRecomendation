@@ -1,0 +1,96 @@
+nav {
+    background-color: #200569;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: large;
+    font-family:'Trebuchet MS';
+    
+    
+  }
+
+nav a {
+text-decoration: none;
+color: #ffffff;
+font-weight: bold;
+}
+
+nav ul {
+list-style-type: none;
+/* padding: 0; */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+
+input[type="text"],
+input[type="number"],
+input{
+    border-radius: 10px;
+    height: 40px;
+    width: 300px;
+}
+
+/* Basic CSS for the form elements */
+body {
+font-family: Arial, sans-serif;
+/* margin: 20px; */
+
+}
+
+
+#btnAbout {
+    padding: 7px 15px;
+    background-color: #4c53af;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    
+  }
+  #btnbtnAbout:hover {
+    background-color: #382e94;
+  }
+  
+  #btnContact {
+    padding: 7px 15px;
+    background-color: #4c53af;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+  }
+  #btnContact:hover {
+    background-color: #382e94;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+.container{
+    
+/* background-image: url("./images/ChicagoImg.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+background-blend-mode: lighten; */
+}
+
+#intro{
+    color: white;
+}
+  
