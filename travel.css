@@ -82,15 +82,36 @@ font-family: Arial, sans-serif;
     background-color: #45a049;
   }
   
+  #imgBg{
+    position: relative;
+  }
 .container{
-    
-/* background-image: url("./images/ChicagoImg.jpg");
-background-size: 100%;
-background-repeat: no-repeat;
-background-blend-mode: lighten; */
+
+  position: relative;
+  text-align: center;
+  
+
 }
 
-#intro{
-    color: white;
+.intro{
+  position: absolute;
+  text-align-last: left;
+  top: 100px;
+  left: 50px;
+  font-size: 80px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: white;
 }
-  
+.more {
+  position:absolute;
+  top: 400px;
+  left:50px;
+  font-size: 30px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.507);
+} 
+.submitDetails{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+}
