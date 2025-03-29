@@ -89,8 +89,6 @@ font-family: Arial, sans-serif;
 
   position: relative;
   text-align: center;
-  
-
 }
 
 .intro{
@@ -102,7 +100,7 @@ font-family: Arial, sans-serif;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: white;
 }
-.more {
+.container p {
   position:absolute;
   top: 400px;
   left:50px;
@@ -111,7 +109,16 @@ font-family: Arial, sans-serif;
   background-color: rgba(0, 0, 0, 0.507);
 } 
 .submitDetails{
+
   position: absolute;
-  top: 200px;
+  top: 400px;
   left: 200px;
+  border: #200569;
+}
+.submitDetails.name_text{
+  padding: 20px;
+}
+
+.submitDetails.detail_text{
+  padding: 20px;
 }
